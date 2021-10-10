@@ -51,3 +51,15 @@ function initMap(){
       map: map
     });
 }
+
+
+// modo oscuro
+const btnSwitch = document.querySelector("#switch")
+
+btnSwitch.addEventListener('click', () =>{
+    document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
+
+    // guardar el modo
+    
+})
