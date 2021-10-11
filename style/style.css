@@ -19,6 +19,8 @@ body {
   /*padding-left: 50%;*/
 }
 
+/*loading*/
+
 body.dark {
   background: black;
 }
@@ -854,10 +856,11 @@ ul {
 }
 
 .contact-form form button {
-  background: #9DD5C9;
+  background: #343D5b;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
+  cursor: pointer;
 }
 
 .contact-form form button:hover,

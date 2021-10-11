@@ -23,6 +23,8 @@ body{
     /*padding-left: 50%;*/
 }
 
+/*loading*/
+
 /*modo oscurp */
 .switch {
   background: #343D5b;
@@ -677,6 +679,8 @@ ul {
   grid-column: 1 / 3;
 }
 
+
+
 .contact-form form button,
 .contact-form form input,
 .contact-form form textarea {
@@ -690,10 +694,11 @@ ul {
 }
 
 .contact-form form button {
-  background: #9DD5C9;
+  background: red;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
+
 }
 
 .contact-form form button:hover,
@@ -773,6 +778,9 @@ section#about {
 
     body.dark &{
       background: black;
+       h2{
+         color: white;
+       }
        p{
          color: white;
        }
